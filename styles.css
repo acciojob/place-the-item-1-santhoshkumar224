@@ -1,2 +1,24 @@
+.holder {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+	text-align:top-left;
+}
 
-/* Your CSS Code here. */
+.item {
+  width:100px;
+	height:100px;/* Adjust width as per your requirement */
+  margin-bottom: 10px; /* Adjust margin as per your requirement */
+}
+
+.box1 {
+  background-color: green;
+}
+
+.box2 {
+  background-color: red;
+}
+
+.box3 {
+  background-color: blue;
+}
